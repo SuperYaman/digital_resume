@@ -1,0 +1,86 @@
+body {
+   margin: 0;
+   overflow-y: hidden;
+}
+
+body::-webkit-scrollbar {
+   display: none
+}
+
+/* .wrapper {
+   display: flex;
+   flex-wrap: nowrap;
+} */
+
+.container {
+   /* height: 100vw;
+   width: 100vh; */
+   /* transform-origin: top left; */
+   position: absolute;
+   overflow-x: hidden;
+   overflow-y: scroll;
+}
+
+/* .section { */
+   /* width: 100vw; */
+   /* height: 100vh; */
+   /* display: flex; */
+   /* flex-shrink: 0; */
+   /* align-items: center; */
+   /* justify-content: space-around; */
+   /* background-color: rgba(4, 85, 123, 0.45); */
+   /* background-size: cover; */
+   /* background-position: center center; */
+/* } */
+
+img {
+   height: 100vh;
+   width: auto;
+}
+
+#static-img {
+   background-image: url(./asset/velo1.png);
+   background-size: cover;
+   width: 23%;
+   position: fixed;
+   z-index: 1;
+   bottom: .8em;
+   left: 10em;
+   height: 50%;
+   scale: .8;
+}
+
+#plan1 {
+   position: absolute;
+   width: 100%;
+   bottom: 0;
+   z-index: 10;
+}
+
+.runner {
+   background-image: url(./asset/velo1.png);
+   position: fixed;
+   bottom: 2.8em;
+   height: 50%;
+   animation: roll .9s steps(5) infinite;
+}
+
+.runner-back {
+   background-image: url(./asset/velo1.png);
+   position: fixed;
+   transform: scaleX(-1);
+   bottom: .8em;
+   animation: roll .9s steps(5) infinite;
+}
+
+@keyframes roll {
+   from {
+      background-position: 0 0;
+   }
+   to {
+      /* background-position: -20260px 0; */
+      background-position: 99% 0;
+   }
+}
+
+
