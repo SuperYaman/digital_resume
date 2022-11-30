@@ -49,6 +49,10 @@ body::-webkit-scrollbar {
    scale: .8;
 }
 
+#bg1 {
+   width: 100%
+}
+
 #plan1 {
    position: absolute;
    width: 100%;
