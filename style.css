@@ -50,12 +50,14 @@ body::-webkit-scrollbar {
 }
 
 #bg1 {
-   width: 100%
+   width: 100%;
+   height: 100vh;
 }
 
 #plan1 {
    position: absolute;
    width: 100%;
+   height: 100vh;
    bottom: 0;
    z-index: 10;
 }
