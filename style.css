@@ -13,9 +13,8 @@ body::-webkit-scrollbar {
 } */
 
 .container {
-   /* height: 100vw;
-   width: 100vh; */
-   /* transform-origin: top left; */
+   height: 100vh;
+   width: 12000px; 
    position: absolute;
    overflow-x: hidden;
    overflow-y: scroll;
