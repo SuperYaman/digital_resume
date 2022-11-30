@@ -32,10 +32,10 @@ body::-webkit-scrollbar {
    /* background-position: center center; */
 /* } */
 
-img {
+/* img {
    height: 100vh;
    width: auto;
-}
+} */
 
 #static-img {
    background-image: url(./asset/velo1.png);
